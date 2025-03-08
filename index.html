@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Age Calculator</title>
+</head>
+<body class=" min-h-screen bg-gradient-to-tr from-blue-500 via-cyan-600 to-purple-70bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% flex justify-center items-center ">
+    <div class=" flex flex-col items-center justify-center space-y-3 bg-slate-900 p-8 rounded-xl ">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl text-amber-500 font-serif"> Age Calculator</h1>
+        <input type="date" class="text-sm font-extralight text-center italic p-2 rounded-sm cursor-text" placeholder="dd/mm/yyyy" id="inputdate">
+        <button class="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white px-2 py-1 rounded-lg" id="enter">enter</button>
+        <div id ="datecontiner" > </div>
+        <button class="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white px-2 py-1 rounded-lg hidden" id="reenter" >re enter</button>
+    </div>
+    <script src="/src/index.js"></script>
+</body>
+</html>
